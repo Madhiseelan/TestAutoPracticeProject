@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationPracticeSuite" duration-ms="113074" started-at="2019-04-24T03:01:09Z" finished-at="2019-04-24T03:03:02Z">
+    <groups>
+    </groups>
+    <test name="Automation Practice Project Test Cases" duration-ms="113074" started-at="2019-04-24T03:01:09Z" finished-at="2019-04-24T03:03:02Z">
+      <class name="com.automationpractice.testcases.HomeAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.HomeAccountPageTest@41d477ed]" name="setUp" is-config="true" duration-ms="12583" started-at="2019-04-24T03:02:13Z" finished-at="2019-04-24T03:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.automationpractice.testcases.HomeAccountPageTest@41d477ed]" name="setExtent" is-config="true" duration-ms="0" started-at="2019-04-24T03:02:13Z" finished-at="2019-04-24T03:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="HomeAccountTitleTest()[pri:0, instance:com.automationpractice.testcases.HomeAccountPageTest@41d477ed]" name="HomeAccountTitleTest" duration-ms="11" started-at="2019-04-24T03:02:25Z" finished-at="2019-04-24T03:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeAccountTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.HomeAccountPageTest@41d477ed]" name="tearDown" is-config="true" duration-ms="1529" started-at="2019-04-24T03:02:26Z" finished-at="2019-04-24T03:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomeAccountTitleTest status=SUCCESS method=HomeAccountPageTest.HomeAccountTitleTest()[pri:0, instance:com.automationpractice.testcases.HomeAccountPageTest@41d477ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testcases.HomeAccountPageTest -->
+      <class name="com.automationpractice.testcases.CreateNewAccountPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.automationpractice.testcases.CreateNewAccountPageTest@3590fc5b]" name="setExtent" is-config="true" duration-ms="1" started-at="2019-04-24T03:02:27Z" finished-at="2019-04-24T03:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.CreateNewAccountPageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="11842" started-at="2019-04-24T03:02:30Z" finished-at="2019-04-24T03:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="newUserSignupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testcases.CreateNewAccountPageTest@3590fc5b]" name="newUserSignupTest" duration-ms="18690" started-at="2019-04-24T03:02:42Z" data-provider="getNewSignInDetails" finished-at="2019-04-24T03:03:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestAutomation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OneTest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testautomationone@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[August]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1980.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA Assistance]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1405 Witmer Rd]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Unit 1000]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Niagara Falls]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[14305.0]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[7.162982244E9]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[7.163472244E9]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[My Home Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignupTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.CreateNewAccountPageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="935" started-at="2019-04-24T03:03:01Z" finished-at="2019-04-24T03:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newUserSignupTest status=SUCCESS method=CreateNewAccountPageTest.newUserSignupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.testcases.CreateNewAccountPageTest@3590fc5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testcases.CreateNewAccountPageTest -->
+      <class name="com.automationpractice.testcases.MainPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="setExtent" is-config="true" duration-ms="350" started-at="2019-04-24T03:01:09Z" finished-at="2019-04-24T03:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="setUp" is-config="true" duration-ms="12004" started-at="2019-04-24T03:01:09Z" finished-at="2019-04-24T03:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginClickTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="verifyLoginClickTest" duration-ms="5797" started-at="2019-04-24T03:01:21Z" finished-at="2019-04-24T03:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginClickTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="tearDown" is-config="true" duration-ms="1202" started-at="2019-04-24T03:01:27Z" finished-at="2019-04-24T03:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginClickTest status=SUCCESS method=MainPageTest.verifyLoginClickTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="setUp" is-config="true" duration-ms="6462" started-at="2019-04-24T03:01:28Z" finished-at="2019-04-24T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoImageTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="verifyLogoImageTest" duration-ms="60" started-at="2019-04-24T03:01:34Z" finished-at="2019-04-24T03:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoImageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="tearDown" is-config="true" duration-ms="1194" started-at="2019-04-24T03:01:34Z" finished-at="2019-04-24T03:01:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoImageTest status=SUCCESS method=MainPageTest.verifyLogoImageTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="setUp" is-config="true" duration-ms="6580" started-at="2019-04-24T03:01:36Z" finished-at="2019-04-24T03:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyPageTitleTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="verifyPageTitleTest" duration-ms="20" started-at="2019-04-24T03:01:42Z" finished-at="2019-04-24T03:01:42Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [My Stores] but found [My Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [My Stores] but found [My Store]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.automationpractice.testcases.MainPageTest.verifyPageTitleTest(MainPageTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082]" name="tearDown" is-config="true" duration-ms="2603" started-at="2019-04-24T03:01:42Z" finished-at="2019-04-24T03:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitleTest status=FAILURE method=MainPageTest.verifyPageTitleTest()[pri:0, instance:com.automationpractice.testcases.MainPageTest@1bb5a082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testcases.MainPageTest -->
+      <class name="com.automationpractice.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="setExtent" is-config="true" duration-ms="1" started-at="2019-04-24T03:01:45Z" finished-at="2019-04-24T03:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="setUp" is-config="true" duration-ms="11324" started-at="2019-04-24T03:01:45Z" finished-at="2019-04-24T03:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginPageTitleTest()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="loginPageTitleTest" duration-ms="18" started-at="2019-04-24T03:01:56Z" finished-at="2019-04-24T03:01:56Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Page title is not matched expected [Login - My Stores] but found [Login - My Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Page title is not matched expected [Login - My Stores] but found [Login - My Store]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.automationpractice.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="tearDown" is-config="true" duration-ms="2655" started-at="2019-04-24T03:01:56Z" finished-at="2019-04-24T03:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=FAILURE method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="setUp" is-config="true" duration-ms="10523" started-at="2019-04-24T03:01:59Z" finished-at="2019-04-24T03:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="loginTest" duration-ms="2268" started-at="2019-04-24T03:02:09Z" finished-at="2019-04-24T03:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363]" name="tearDown" is-config="true" duration-ms="1209" started-at="2019-04-24T03:02:12Z" finished-at="2019-04-24T03:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest()[pri:0, instance:com.automationpractice.testcases.LoginPageTest@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.testcases.LoginPageTest -->
+    </test> <!-- Automation Practice Project Test Cases -->
+  </suite> <!-- AutomationPracticeSuite -->
+</testng-results>

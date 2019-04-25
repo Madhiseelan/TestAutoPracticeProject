@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationPracticeSuite]">
+  <test thread-count="5" name="Automation Practice Project Test Cases(failed)">
+    <classes>
+      <class name="com.automationpractice.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.automationpractice.testcases.LoginPageTest -->
+      <class name="com.automationpractice.testcases.MainPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="verifyPageTitleTest"/>
+        </methods>
+      </class> <!-- com.automationpractice.testcases.MainPageTest -->
+    </classes>
+  </test> <!-- Automation Practice Project Test Cases(failed) -->
+</suite> <!-- Failed suite [AutomationPracticeSuite] -->
