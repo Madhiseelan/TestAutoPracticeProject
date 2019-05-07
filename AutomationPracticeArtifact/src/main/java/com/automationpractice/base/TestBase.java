@@ -21,6 +21,7 @@ public class TestBase{
 	public static ExtentTest extentTest;
 	
 	public TestBase() {
+		
 		try {
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/automationpractice/config/config.properties");
